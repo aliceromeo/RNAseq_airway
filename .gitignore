@@ -1,0 +1,7 @@
+.snakemake
+data/*
+!data/samples.csv
+results/*
+reports/*
+!reports/multiqc_report.html
+run.sh

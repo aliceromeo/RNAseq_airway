@@ -1,0 +1,13 @@
+name: preproc_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - wget=1.21
+  - parallel-fastq-dump=0.6.7
+  - salmon=1.10.0
+  - fastqc=0.12.1
+  - multiqc=1.14
+  - pandas=2.0.0

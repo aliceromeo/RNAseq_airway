@@ -1,0 +1,28 @@
+name: r_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.4
+  - libtiff
+  - r-readr
+  - r-ggridges
+  - r-ggplotify
+  - r-ggplot2
+  - r-gridextra
+  - r-patchwork
+  - r-pheatmap
+  - r-matrixstats
+  - r-dplyr
+  - r-rmarkdown
+  - r-factoextra
+  - r-ggally
+  - bioconductor-deseq2
+  - bioconductor-tximport
+  - bioconductor-clusterprofiler
+  - bioconductor-org.hs.eg.db
+  - bioconductor-annotationdbi
+  - bioconductor-txdbmaker
+  - bioconductor-enrichplot
+  - r-msigdbr

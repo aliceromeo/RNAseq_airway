@@ -1,0 +1,4 @@
+metadata: "data/samples.csv"
+index_dir: "data/salmon_index_hg38"
+threads_default: 8
+fc_thresholds: [0.5, 1, 1.5, 2]
