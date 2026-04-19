@@ -1,2 +1,7 @@
-# Force R language for linguist
+# exclude HTML reports from linguist
+*.html linguist-vendored
+reports/**/*.html linguist-vendored
+
+# Force R and python language for linguist
 scripts/*.R linguist-language=R
+Snakefile linguist-language=Snakemake
