@@ -1,0 +1,2 @@
+# Force R language for linguist
+scripts/*.R linguist-language=R
