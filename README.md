@@ -30,31 +30,11 @@ The pipeline automates the following biological and computational steps:
 └── results/                # Generated tables and plots
 ```
 
-## 🚀 Getting Started
-
-### 1. Installation and Setup
-Clone this repository and navigate into the project directory:
-```bash
-git clone https://github.com/aliceromeo/RNAseq_airway.git
-cd RNAseq_airway
-```
-
-### 2. Execution
-To run the full pipeline, automatically creating the necessary Conda environments and using (for example) 8 CPU cores:
-```bash
-snakemake --use-conda --cores 8
-```
-
 ## 📈 Interactive analysis report
 One of the key features of this workflow is the automatic generation of a comprehensive Snakemake Report. This HTML file encapsulates the entire analysis, providing:
 
 1. Execution metrics: Time, date, and tools used.
 2. A visual representation of the workflow's rule dependencies.
 3. Embedded results: High-resolution plots (PCA, GSEA, Heatmaps) and data tables directly accessible within the browser.
-
-To generate the report after a successful run, use:
-```bash
-snakemake --report report.html
-```
 
 You can then open ```report.html``` (already included in the repository as an example) in any web browser to explore the results.
